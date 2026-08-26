@@ -1,0 +1,34 @@
+/* Estilo general de la página */
+body{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color:lightgray;
+}
+
+/* Título principal */
+h1{
+    color: blue;
+}
+
+/* Párrafo de presentación */
+p{
+    font-size: 25px;
+}
+
+/* Aplicacion de estilos a imagen */
+img{
+    width: 250px;
+    border-radius: 20px;
+}
+
+/* Aplicamos estilos a los elementos que tengan la clase tarjeta*/
+.tarjeta{
+    background-color: white;
+
+/*creamos un espacio dentro de ls tsrjeta */
+    padding: 20px;
+
+/*creamos un espacio alrededor de la tarjeta*/
+    margin: 30px;
+    border-radius: 25px;
+}
