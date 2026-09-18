@@ -2,7 +2,7 @@
 body{
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color:lightgray;
+    background-color: lightgray;
 }
 
 /* Título principal */
@@ -15,20 +15,47 @@ p{
     font-size: 25px;
 }
 
-/* Aplicacion de estilos a imagen */
+/* Aplicación de estilos a imagen */
 img{
     width: 250px;
     border-radius: 20px;
 }
 
-/* Aplicamos estilos a los elementos que tengan la clase tarjeta*/
+/* Aplicamos estilos a los elementos que tengan la clase tarjeta */
 .tarjeta{
     background-color: white;
 
-/*creamos un espacio dentro de ls tsrjeta */
+    /* Creamos un espacio dentro de la tarjeta */
     padding: 20px;
 
-/*creamos un espacio alrededor de la tarjeta*/
+    /* Creamos un espacio alrededor de la tarjeta */
     margin: 30px;
+
     border-radius: 25px;
+}
+
+/* Aplicamos estilos a los elementos con la clase boton */
+.boton{
+    background-color: blue;
+    color: white;
+
+    /* Espacio interno del botón */
+    padding: 10px 20px;
+
+    /* Eliminamos el subrayado de los enlaces */
+    text-decoration: none;
+
+    /* Eliminamos el borde predeterminado */
+    border: none;
+
+    /* Redondeamos las esquinas */
+    border-radius: 10px;
+
+    /* Cambiamos el cursor al pasar sobre el botón */
+    cursor: pointer;
+}
+
+/* Cambia el estilo cuando colocamos el mouse sobre el botón */
+.boton:hover{
+    background-color: darkblue;
 }

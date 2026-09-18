@@ -6,13 +6,18 @@
     <title>JUAN</title>
     <link rel="stylesheet" href="estilos.css">
 </head>
+
 <body>
+
     <!-- Encabezado principal de la página -->
     <h1>Bienvenidos a mi primera Web Hola Mundo</h1>
 
+    <!-- Enlace que dirige a una sección de la misma página -->
+    <a href="#contacto" class="boton">Ir a contacto</a>
+
     <div class="tarjeta"> 
-    <h2>Este es el seguimiento de mi primera web</h2>
-    <p>Esta es mi primera página web con los estudiantes de cuarto bachillerato.</p>
+        <h2>Este es el seguimiento de mi primera web</h2>
+        <p>Esta es mi primera página web con los estudiantes de cuarto bachillerato.</p>
     </div>
 
     <!-- Lista de pasatiempos personales -->
@@ -27,7 +32,7 @@
     </ul>
 
     <!-- Lista de actividades en la escuela -->
-    <h2> Mis pasatiempos en la escuela</h2>
+    <h2>Mis pasatiempos en la escuela</h2>
 
     <ol>
        <li>Dormir</li>
@@ -39,10 +44,34 @@
 
     <!-- Sección de la imagen principal -->
     <h2>Mi idolo</h2>
+
     <img src="imagenes/El Goat.jpg" alt="Mi idolo">
 
+    <!-- Enlace hacia una página externa -->
     <h2>Mis sitios favoritos</h2>
-    <a href="https://www.google.com" target="_blank"> Visitar Google</a>
-    
+
+    <a href="https://www.google.com" target="_blank">
+        Visitar Google
+    </a>
+
+    <!-- Sección identificada con un ID -->
+    <h2 id="contacto">Contacto</h2>
+
+    <p>Puedes encontrarme en mi página web.</p>
+
+    <!-- Botón que ejecuta una función de JavaScript -->
+    <button class="boton" onclick="mostrarMensaje()">
+        Mostrar mensaje
+    </button>
+
+    <!-- Código JavaScript -->
+    <script>
+
+        function mostrarMensaje(){
+            alert("¡Gracias por visitar mi página web!");
+        }
+
+    </script>
+
 </body>
 </html>
