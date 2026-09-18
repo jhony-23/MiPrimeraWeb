@@ -2,12 +2,12 @@
 body{
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: lightgray;
+    background-color: rgb(138, 135, 135);
 }
 
 /* Título principal */
 h1{
-    color: blue;
+    color: rgb(0, 0, 0);
 }
 
 /* Párrafo de presentación */
@@ -36,7 +36,7 @@ img{
 
 /* Aplicamos estilos a los elementos con la clase boton */
 .boton{
-    background-color: blue;
+    background-color: rgb(0, 0, 0);
     color: white;
 
     /* Espacio interno del botón */
